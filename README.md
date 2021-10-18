@@ -1,16 +1,15 @@
 # Regex to NFA
 
-### Author: Bradley Dowling
-### Email: bradley.dowling@wsu.edu
+Author: Bradley Dowling
+
+Email: bradley.dowling@wsu.edu
 
 Files:
-	- main.c: controls I/O for program
-	- nfa.c: functions controlling creation/deletion of NFAs
-	- nfa.h: prototypes/documentation for nfa.c functions and NFA/transition
-                 data structres.
-	- stack.c: implementation of stack data structure
-	- stack.h: prototypes/documentation for stack.c functions and stack data
-                   structures.
+- main.c: controls I/O for program
+- nfa.c: functions controlling creation/deletion of NFAs
+- nfa.h: prototypes/documentation for nfa.c functions and NFA/transition data structres.
+- stack.c: implementation of stack data structure
+- stack.h: prototypes/documentation for stack.c functions and stack data structures.
 
 Compile the executable using the following command:
 
@@ -18,9 +17,9 @@ Compile the executable using the following command:
 
 After compiling, the program can be executed using the following command:
 
-		main *filename*
+		main <filename>
 
-where *filename* is the name of a .txt file that contains a postfix regex on
+where <filename> is the name of a .txt file that contains a postfix regex on
 each line (do not include '<' or '>' in the argument specifying the filename).
 
 The executable only takes a single argument. If anything other than 1 argument
