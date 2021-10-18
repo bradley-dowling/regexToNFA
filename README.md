@@ -1,8 +1,8 @@
 # Regex to NFA
 
-Author: Bradley Dowling
+**Author:** Bradley Dowling
 
-Email: bradley.dowling@wsu.edu
+**Email:** bradley.dowling@wsu.edu
 
 Files:
 - **main.c:** controls I/O for program
